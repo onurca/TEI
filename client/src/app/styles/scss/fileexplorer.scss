@@ -1,0 +1,18 @@
+﻿@import 'base.scss';
+
+.file-explorer-container {
+	width: 20%;
+	height: 100%;
+	min-height: 200px;
+	margin-left: $margin-default;
+	border: $border;
+	display: inline-block;
+	float: left;
+}
+
+.file-explorer-header {
+	text-align: center;
+	border-bottom: $border;
+	padding: $padding-default;
+	font-weight: bold;
+}

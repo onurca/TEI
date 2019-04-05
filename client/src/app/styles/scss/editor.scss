@@ -1,0 +1,35 @@
+﻿@import 'base.scss';
+
+.text-editor-container{
+	margin-top:2em;
+}
+
+.editor-container {
+	width: 58%;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+}
+
+.editable-area {
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	padding: $padding-default;
+	margin: $align-center;
+	border: $border;
+	white-space: pre-wrap;
+}
+
+.search-area{
+	width:200px;
+	position:absolute;
+	top:-25px;
+	height:25px;
+	right:0px;
+}
+
+.highlighted{
+	background-color:yellow;
+}
